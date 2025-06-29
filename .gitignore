@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# dotenv file (if used)
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyCharm / VS Code configs (optional)
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Docker
+*.pid

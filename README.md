@@ -1,5 +1,4 @@
 # AutoDeploy-Flask-1
-# AutoDeploy-Flask 
 
 A lightweight Flask app for real-time system monitoring (CPU & Memory usage) with Prometheus & Grafana integration. Ideal for DevOps portfolio and Docker orchestration demo.
 

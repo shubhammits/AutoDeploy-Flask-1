@@ -1,0 +1,30 @@
+{
+  "dashboard": {
+    "id": null,
+    "uid": null,
+    "title": "Flask App Metrics",
+    "timezone": "browser",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "CPU Usage",
+        "targets": [
+          { "expr": "cpu_usage", "legendFormat": "CPU", "refId": "A" }
+        ],
+        "gridPos": { "x": 0, "y": 0, "w": 24, "h": 8 }
+      },
+      {
+        "type": "graph",
+        "title": "Memory Usage",
+        "targets": [
+          { "expr": "memory_usage", "legendFormat": "Memory", "refId": "A" }
+        ],
+        "gridPos": { "x": 0, "y": 8, "w": 24, "h": 8 }
+      }
+    ],
+    "schemaVersion": 26,
+    "version": 0,
+    "refresh": "10s"
+  },
+  "overwrite": true
+}
